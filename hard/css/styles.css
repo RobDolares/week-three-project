@@ -1,0 +1,105 @@
+
+/*green    #61b34f
+lt green #83c178*/
+
+
+body {
+  font-family: 'Helvetica', 'Arial', 'sans-serif';
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 16%;
+}
+h1 {
+  width: 100%;
+}
+
+main {
+  margin: 0 auto;
+  display: flex;
+
+}
+
+button:focus {
+  outline: none;
+}
+
+#calc-container{
+  border-radius: 20px;
+  width: 384px;
+  flex-flow: wrap;
+  justify-content: center;
+  padding:30px;
+  border: 1px solid black;
+}
+
+.calc-block {
+  float: left;
+  width: 90px;
+  background-color: #61b34f;
+  height: 90px;
+  border: 1px solid #8ec882;
+  border-collapse: collapse;
+  cursor: pointer;
+  margin:3px;
+  box-shadow: 3px 3px 3px black;
+  border-radius: 4px;
+}
+
+.press:active {
+  box-shadow: none
+}
+
+.bgc-chg {
+  background-color: #83c178;
+}
+
+.bgc-chg p {
+  color: black;
+}
+
+.bgc-chg:hover p {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin:0 auto;
+  align-self: center;
+  color: white;
+  font-size: 2.4em;
+  font-weight: lighter;
+}
+
+#clear {
+  width
+}
+#clear:hover {
+  background-color: #83c178;
+}
+
+#answer {
+  width: 376px;
+  height: 98px;
+  cursor: text;
+}
+
+#equals:hover {
+  background-color: #83c178;
+}
+#zero{
+  width: 186px;
+}
+
+
+
+/************Hard Mode Additional Styles**************/
