@@ -1,7 +1,5 @@
-
 /*green    #61b34f
 lt green #83c178*/
-
 
 body {
   font-family: 'Helvetica', 'Arial', 'sans-serif';
@@ -16,6 +14,7 @@ header {
   justify-content: space-around;
   margin: 0 16%;
 }
+
 h1 {
   width: 100%;
 }
@@ -23,19 +22,18 @@ h1 {
 main {
   margin: 0 auto;
   display: flex;
-
 }
 
 button:focus {
   outline: none;
 }
 
-#calc-container{
+#calc-container {
   border-radius: 20px;
   width: 384px;
   flex-flow: wrap;
   justify-content: center;
-  padding:30px;
+  padding: 30px;
   border: 1px solid black;
 }
 
@@ -47,7 +45,7 @@ button:focus {
   border: 1px solid #8ec882;
   border-collapse: collapse;
   cursor: pointer;
-  margin:3px;
+  margin: 3px;
   box-shadow: 3px 3px 3px black;
   border-radius: 4px;
 }
@@ -73,7 +71,7 @@ h1 {
 }
 
 p {
-  margin:0 auto;
+  margin: 0 auto;
   align-self: center;
   color: white;
   font-size: 2.4em;
@@ -83,23 +81,29 @@ p {
 #clear {
   width
 }
+
 #clear:hover {
   background-color: #83c178;
 }
 
 #answer {
+  text-align: right;
+  padding-top: 30px;
   width: 376px;
-  height: 98px;
+  height: 70px;
   cursor: text;
+  color: white;
+  font-size: 2em;
+  font-weight: lighter;
 }
 
 #equals:hover {
   background-color: #83c178;
 }
-#zero{
+
+#zero {
   width: 186px;
 }
-
 
 
 /************Hard Mode Additional Styles**************/

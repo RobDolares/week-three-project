@@ -12,7 +12,7 @@ window.onload = function() {
     num[i].addEventListener("click", function() {
       output = answer.innerHTML += this.value;
       maxInput = output.length;
-      if (maxInput > 12) {
+      if (maxInput > 16) {
         alert("Use less input");
       }
     });
@@ -44,13 +44,14 @@ window.onload = function() {
   var oper = document.querySelectorAll(".oper");
 
   for (var i = 0; i < oper.length; i++) {
+
     oper[i].addEventListener("click", function() {
       operator = this.value;
       if (answer.innerHTML === "") {
         answer.innerHTML = (answer.innerHTML + "");
       } else if (output) {
         answer.innerHTML = (output + operator);
-      }
+      }console.log(oper);
     }, false);
   }
 
