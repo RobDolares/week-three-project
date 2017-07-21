@@ -7,7 +7,7 @@ window.onload = function() {
 
   let num = document.querySelectorAll(".num");
 
-  for (let i = 0; i < num.length; i++) {
+  for (var i = 0; i < num.length; i++) {
 
     num[i].addEventListener("click", function() {
       output = answer.innerHTML += this.value;
@@ -41,16 +41,16 @@ window.onload = function() {
 
   //tie in operators
 
-  let oper = document.querySelectorAll(".oper");
+  var oper = document.querySelectorAll(".oper");
 
-  for (let i = 0; i < oper.length; i++) {
+  for (var i = 0; i < oper.length; i++) {
 
     oper[i].addEventListener("click", function() {
-      operator = this.value;
+      oper = this.value;
       if (answer.innerHTML === "") {
         answer.innerHTML = (answer.innerHTML + "");
       } else if (output) {
-        answer.innerHTML = (output + operator);
+        answer.innerHTML = (output + oper);
       }console.log(oper);
     }, false);
   }
