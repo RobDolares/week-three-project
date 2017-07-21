@@ -7,7 +7,7 @@ window.onload = function() {
 
   let num = document.querySelectorAll(".num");
 
-  for (var i = 0; i < num.length; i++) {
+  for (let i = 0; i < num.length; i++) {
 
     num[i].addEventListener("click", function() {
       output = answer.innerHTML += this.value;
@@ -41,9 +41,9 @@ window.onload = function() {
 
   //tie in operators
 
-  var oper = document.querySelectorAll(".oper");
+  let oper = document.querySelectorAll(".oper");
 
-  for (var i = 0; i < oper.length; i++) {
+  for (let i = 0; i < oper.length; i++) {
 
     oper[i].addEventListener("click", function() {
       operator = this.value;
